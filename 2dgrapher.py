@@ -1,18 +1,18 @@
 #!/usr/bin/env python3
 
 # file: 2dgrapher.py
-# descr: script to make a 2d graph
+# descr: script to make a 2D cardinal graph
 
 
 
 from matplotlib import pyplot
 
-x_start, x_end = map(int, input("Enter the range of x (e.g. -6,3): ").split(","))
+x_start, x_end = map(int, input("Enter the range of x (e.g. -6,3): ").strip().split(","))
 
 
 
 
-y_start, y_end = map(int, input("Enter the range of y (e.g. -6,3: ").split(","))
+y_start, y_end = map(int, input("Enter the range of y (e.g. -6,3): ").strip().split(","))
 
 
 list_x = list(range(x_start, x_end + 1))
