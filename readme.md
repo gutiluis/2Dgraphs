@@ -17,6 +17,7 @@ git clone https://github.com/gutiluis/2Dgraphs.git
 cd 2Dgraphs
 python -m venv venv
 source venv/bin/activate
+pip install -r requirements.txt
 python3 db_manager.py
 ```
 
